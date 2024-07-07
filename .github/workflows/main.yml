@@ -37,10 +37,8 @@ jobs:
         with:
           kicad_sch: ${{ github.workspace }}/USB HID.kicad_sch
           sch_pdf: true # Generate PDF
-          sch_pdf_file: schematic.pdf
           kicad_pcb: ${{ github.workspace }}/USB HID.kicad_pcb
           pcb_gerbers: true # Generate Gerbers
-          pcb_gerbers_file: USB HID.zip
           
       - name: Upload output
         uses: stefanzweifel/git-auto-commit-action@v5
