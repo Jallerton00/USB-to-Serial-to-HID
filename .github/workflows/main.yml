@@ -18,7 +18,7 @@ jobs:
       - name: Render PCB images
         uses: linalinn/kicad-render@main
         with:
-          pcb_file: ${{ github.workspace }}USB-HID.kicad_pcb
+          pcb_file: ${{ github.workspace }}/USB-to-Serial-to-HID.kicad_pcb
           output_path: ${{ github.workspace }}/images
           animation: gif # Animation
       
@@ -27,7 +27,7 @@ jobs:
       #   uses: sparkengineering/kicad-action@v1
       #   if: '!cancelled()'
       #   with:
-      #     kicad_pcb: ${{ github.workspace }}/USB-HID.kicad_pcb
+      #     kicad_pcb: ${{ github.workspace }}/USB-to-Serial-to-HID.kicad_pcb
       #     pcb_drc: true
       
       - name: Export production files
@@ -35,10 +35,10 @@ jobs:
         uses: sparkengineering/kicad-action@v1
         if: '!cancelled()'
         with:
-          kicad_sch: ${{ github.workspace }}/USB-HID.kicad_sch
+          kicad_sch: ${{ github.workspace }}/USB-to-Serial-to-HID.kicad_sch
           sch_pdf: true # Generate PDF
           sch_pdf_file: schematic.pdf
-          kicad_pcb: ${{ github.workspace }}/USB-HID.kicad_pcb
+          kicad_pcb: ${{ github.workspace }}/USB-to-Serial-to-HID.kicad_pcb
           pcb_gerbers: true # Generate Gerbers
           pcb_gerbers_file: USB_HID.zip
           
