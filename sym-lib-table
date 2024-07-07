@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CH9329")(type "KiCad")(uri "${KIPRJMOD}/CH9329.kicad_sym")(options "")(descr ""))
+  (lib (name "LibraryLoader")(type "KiCad")(uri "${KIPRJMOD}/LibraryLoader/SamacSys_Parts.kicad_sym")(options "")(descr ""))
+  (lib (name "Farnell")(type "KiCad")(uri "${KIPRJMOD}/Farnell/USB4520-03-1-A.kicad_sym")(options "")(descr ""))
+)
