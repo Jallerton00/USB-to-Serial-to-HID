@@ -40,7 +40,7 @@ jobs:
           sch_pdf_file: schematic.pdf
           kicad_pcb: ${{ github.workspace }}/USB-to-Serial-to-HID.kicad_pcb
           pcb_gerbers: true # Generate Gerbers
-          pcb_gerbers_file: USB_HID.zip
+          pcb_gerbers_file: USB-to-Serial-to-HID.zip
           
       - name: Upload output
         uses: stefanzweifel/git-auto-commit-action@v5
