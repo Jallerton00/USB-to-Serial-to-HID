@@ -417,7 +417,7 @@
       (net 11 "GND") (pinfunction "MH1") (pintype "passive") (tstamp 643e6250-6bfa-43d2-b00a-876cc8aa25ac))
     (pad "MH2" thru_hole circle (at -5.85 -7.575 90) (size 3.9 3.9) (drill 2.6) (layers "*.Cu" "*.Mask")
       (net 11 "GND") (pinfunction "MH2") (pintype "passive") (tstamp 2af894d9-a5e5-4bad-b519-9e501b108148))
-    (model "\\LibraryLoader\\SamacSys_Parts.3dshapes\\48037-2200.stp"
+    (model "${KIPRJMOD}/LibraryLoader/SamacSys_Parts.3dshapes/48037-2200.stp"
       (offset (xyz 0 -0.6000000148 -0.239999991))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
