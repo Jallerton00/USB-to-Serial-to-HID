@@ -33,7 +33,7 @@
   (pad MH2 thru_hole circle (at -5.850 -7.575) (size 3.900 3.900) (drill 2.6) (layers *.Cu *.Mask))
   (pad MH3 np_thru_hole circle (at 2.250 -7.575) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask))
   (pad MH4 np_thru_hole circle (at -2.250 -7.575) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask))
-  (model "C:\\Users\\James Allerton\\Documents\\USB HID\\LibraryLoader\\SamacSys_Parts.3dshapes\\48037-2200.stp"
+  (model "${KIPRJMOD}/LibraryLoader/SamacSys_Parts.3dshapes/48037-2200.stp"
     (at (xyz 0 -0.02362204818275 -0.0094488186864402))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
